@@ -52,8 +52,8 @@ repos:
             exclude: .*/tests/.*|^\.cruft\.json$|.*\tests\.*
           - id: nbqa-black
             name: nbqa-black - consistent Python code formatting (notebooks; auto-fixes)
-            language_version: python3.11 # Should be a command that runs python3.6+
-            args: [--nbqa-mutate]
+            language_version: python3.12 # Should be a command that runs python3.6+
+            args: ["--line-length=79"]
             additional_dependencies: [black==25.1.0]
             exclude: .*/tests/.*|^\.cruft\.json$|.*\tests\.*
           - id: nbqa-flake8
