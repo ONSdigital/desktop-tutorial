@@ -1,5 +1,5 @@
-# Welcome to GitHub Desktop!
+# Python tutorial
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+## Installation guide
+Requires Python 3.12
+In VS Code, install ipykernel add-on.
