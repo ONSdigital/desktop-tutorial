@@ -1,0 +1,6 @@
+black==25.1.0
+black[jupyter]
+matplotlib
+numpy
+pandas
+detect-secrets

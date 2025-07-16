@@ -2,4 +2,4 @@
 
 ## Installation guide
 Requires Python 3.12
-In VS Code, install ipykernel add-on.
+In VS Code, install ipykernel add-on from Jupyter.
