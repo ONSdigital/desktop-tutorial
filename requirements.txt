@@ -1,6 +1,8 @@
 black==25.1.0
 black[jupyter]
-matplotlib
-numpy
-pandas
-detect-secrets
+detect-secrets==1.5.0
+flake8==7.3.0
+matplotlib==3.10.3
+nbqa==1.9.1
+numpy==2.3.1
+pandas==2.3.1
