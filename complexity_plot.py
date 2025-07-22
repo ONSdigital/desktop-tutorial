@@ -10,7 +10,7 @@ y1 = -1 / (x1 - 1) + 1
 x2 = np.linspace(0.01, 1.99, 500)
 y2 = -1 / (x2 - 3) + 3
 
-# Create the plot
+# %% Create the plot
 plt.figure(figsize=(6, 5))
 plt.plot(x1, y1, label="Spreadsheets")
 plt.plot(x2, y2, label="Programming")
@@ -33,3 +33,5 @@ plt.title("Comparison of Time to Build vs Complexity")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+# %%
