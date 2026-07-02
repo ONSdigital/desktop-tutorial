@@ -1,11 +1,12 @@
 # %% This is a workshop placeholder to study data types and structures in
-# Python.
+# %%Python.
 n = 6
 print(type(n))
 x = 1 / 2
 print(x)
 print(type(x))
 
+# %%
 s = "Hello world!"
 print(s)
 print(type(s))
